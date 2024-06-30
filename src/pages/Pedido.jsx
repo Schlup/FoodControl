@@ -11,7 +11,7 @@ function Pedido() {
                 Pedido
             </div>
         </main>
-    )
+    )   
 }
 
 export default Pedido
