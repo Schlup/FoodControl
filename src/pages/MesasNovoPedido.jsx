@@ -27,12 +27,12 @@ function MesasNovoPedido() {
                 <p className=''>R$9,79 x1 R$9,79</p>
               </div>
               <div className='p-2'>
-                <h2>Refrigerante Coca-Cola Pet 2L</h2>
-                <p className=''>R$9,79 x1 R$9,79</p>
+                <h2>Refrigerante Guaraná Antarctica Lata 350ml</h2>
+                <p className=''>R$2,99 x2 R$5,98</p>
               </div>
               <div className='p-2'>
-                <h2>Refrigerante Coca-Cola Pet 2L</h2>
-                <p className=''>R$9,79 x1 R$9,79</p>
+                <h2>Pastel de Frango com Requeijão Massotti 120g</h2>
+                <p className=''>R$6,28 x2 R$12,56</p>
               </div>
               <div className='flex-grow'></div>
               <div className='bg-confirmed p-4 text-white text-2xl mt-auto'>
@@ -54,60 +54,78 @@ function MesasNovoPedido() {
             <div className='flex flex-wrap gap-x-14 gap-y-6 p-16'>
               <div className='bg-navred p-2 text-white'>
                 <img src="" alt="" className='bg-cocacola bg-cover p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <p>Coca-Cola Pet 2L</p>
                 <p>R$ 9,79</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-pepsi bg-cover p-28' />
+                <p>Pepsi Pet 2L</p>
+                <p>R$ 7,49</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-guarana bg-cover p-28' />
+                <p>Guaraná Antarctica Pet 2L</p>
+                <p>R$ 7,99</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-maxlaranjinha bg-cover p-28' />
+                <p>Laranjinha Max Pet 2L</p>
+                <p>R$ 5,49</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-maxframboesa bg-cover p-28' />
+                <p>Framboesa Max Pet 2L</p>
+                <p>R$ 5,49</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-cocacolalata bg-cover p-28' />
+                <p>Coca-Cola Lata 350ml</p>
+                <p>R$ 3,69</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-cocacolazerolata bg-cover p-28' />
+                <p>Coca-Cola Zero Lata 350ml</p>
+                <p>R$ 3,69</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-guaranalata bg-cover p-28' />
+                <p>Guaraná Antarctica Lata 350ml</p>
+                <p>R$ 2,99</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-spritelata bg-cover p-28' />
+                <p>Limão Sprite Lata 350ml</p>
+                <p>R$ 3,29</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-spritezerolata bg-cover p-28' />
+                <p>Limão Zero Sprite Lata 350ml</p>
+                <p>R$ 3,29</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-fantalaranjalata bg-cover p-28' />
+                <p>Fanta Laranja Lata 350ml</p>
+                <p>R$ 3,39</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-fantauvalata bg-cover p-28' />
+                <p>Fanta Uva Lata 350ml</p>
+                <p>R$ 3,39</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-fantamaracujalata bg-cover p-28' />
+                <p>Maracujá Fanta Lata 350ml</p>
+                <p>R$ 3,39</p>
               </div>
               <div className='bg-navred p-2 text-white'>
-                <img src="" alt="" className='bg-white p-28' />
-                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <img src="" alt="" className='bg-fantaguaranalata bg-cover p-28' />
+                <p>Guaraná Fanta Lata 350ml</p>
+                <p>R$ 3,19</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-fantaguaranazerolata bg-cover p-28' />
+                <p>Guaraná Zero Fanta Lata 350ml</p>
+                <p>R$ 3,19</p>
               </div>
             </div>
           </div>
