@@ -10,32 +10,100 @@ import LanchesBotao from '../layout/LanchesBotao';
 
 function MesasNovoPedido() {
   return (
-    <main className="grid grid-cols-10">
+    <main className="grid grid-cols-10 overflow-hidden overscroll-none">
       <div>
         <Nav />
       </div>
       <div className="col-span-9 p-8">
-        <header className="border-b-2 pb-6 flex">
-          <Link to="/mesas">
-            <h1 className="text-3xl font-semibold">Mesas</h1>
-          </Link>
-          <span className="text-2xl font-semibold mx-2 pt-1">{'>'}</span>
-          <h2 className="text-2xl pt-1">Novo Pedido</h2>
+        <header className="border-b-2 pb-6 flex justify-between">
+          <div className='flex'><Link to="/mesas"><h1 className="text-3xl font-semibold">Mesas</h1></Link><span className="text-2xl font-semibold mx-2 pt-1">{'>'}</span><h2 className="text-2xl pt-1">Novo Pedido</h2></div>
           <ConcluirBotao />
         </header>
-        <div className='flex flex-wrap gap-6 mt-4 w-full'>
-        <BebidasBotao />
-        <DocesBotao />
-        <SalgadosBotao />
-        <PorcoesBotao />
-        <LanchesBotao />
-          <div className='bg-grey w-80 h-60 rounded-lg'>
-            <h2 className='px-4 py-2 bg-waiting text-white flex justify-between text-lg rounded-lg'>Mesa 002</h2>
-            <p className='mx-4 font-semibold mt-2'>Capacidade: <span className='font-normal'>4 Pessoas</span></p>
-            <p className='mx-4 font-semibold mt-2'>Local: <span className='font-normal'>Salão</span></p>
-            <p className='mx-4 font-semibold mt-2'>Status: <span className='font-normal'>Indisponível</span></p>
-            <p className='mx-4 font-semibold mt-2'>Tempo: <span className='font-normal'>15 min</span></p>
-            <p className='mx-4 font-semibold mt-2'>Valor: <span className='font-normal'>R$48,62</span></p>
+        <div className='grid-cols-12 flex'>
+          <div className='bg-grey w-3/12 flex flex-col h-max mt-4'>
+            <div className='p-4 text-2xl mb-80'>
+              <div className='p-2'>
+                <h2>Refrigerante Coca-Cola Pet 2L</h2>
+                <p className=''>R$9,79 x1 R$9,79</p>
+              </div>
+              <div className='p-2'>
+                <h2>Refrigerante Coca-Cola Pet 2L</h2>
+                <p className=''>R$9,79 x1 R$9,79</p>
+              </div>
+              <div className='p-2'>
+                <h2>Refrigerante Coca-Cola Pet 2L</h2>
+                <p className=''>R$9,79 x1 R$9,79</p>
+              </div>
+              <div className='flex-grow'></div>
+            </div>
+            <div className='bg-confirmed p-4 text-white text-2xl mt-80'>
+              <p>Total</p>
+              <p>R$ 28,33</p>
+            </div>
+          </div>
+          <div className='w-9/12'>
+            <div className='flex gap-6 mt-4 justify-evenly h-min'>
+              <BebidasBotao />
+              <DocesBotao />
+              <SalgadosBotao />
+              <PorcoesBotao />
+              <LanchesBotao />
+            </div>
+
+            <div className='flex flex-wrap gap-x-14 gap-y-10 p-16'>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-white p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

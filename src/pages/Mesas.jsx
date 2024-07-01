@@ -1,7 +1,6 @@
 import React from 'react'
 import Nav from '../layout/Nav'
 import { Link } from 'react-router-dom';
-import NovaMesaBotao from '../layout/NovaMesaBotao';
 import { FaCheck } from "react-icons/fa";
 import { LuClock } from "react-icons/lu";
 import { IoMdLock } from "react-icons/io";
@@ -15,11 +14,8 @@ function Mesas() {
                 <Nav />
             </div>
             <div className="col-span-9 p-8">
-                <header className="border-b-2 pb-4 flex justify-between">                   
+                <header className="border-b-2 pb-4 flex">                   
                     <h1 className="text-3xl font-semibold">Mesas</h1>
-                    <Link to="/novamesa">
-                        <NovaMesaBotao />
-                    </Link>
                 </header>
                 <div className='flex flex-wrap gap-6 mt-4 w-full'>
                     <Link to="/novoPedido">

@@ -14,6 +14,9 @@ module.exports = {
       blue: "#1C63EE",
       tgrey: "#828282",
     },
+    backgroundImage: {
+      'inicio': "url('/src/images/Inicio.jpg')",
+    },
   },
   plugins: [],
 }

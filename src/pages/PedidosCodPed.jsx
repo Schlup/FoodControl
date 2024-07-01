@@ -10,12 +10,8 @@ function PedidosCodPed() {
         <Nav />
       </div>
       <div className="col-span-9 bg-slate-300 p-8">
-        <header className="border-b-2 pb-6 flex items-center">
-          <Link to="/pedidos">
-            <h1 className="text-3xl font-semibold">Pedidos</h1>
-          </Link>
-          <span className="text-2xl font-semibold mx-2 pt-1">{'>'}</span>
-          <h2 className="text-2xl pt-1">PN398485</h2>
+        <header className="border-b-2 pb-4 flex items-center justify-between">
+          <div className='flex'><Link to="/pedidos"><h1 className="text-3xl font-semibold">Pedidos</h1></Link><span className="text-2xl font-semibold mx-2 pt-1">{'>'}</span><h2 className="text-2xl pt-1">PN398485</h2></div>
           <ConcluirBotao />
         </header>
         <table className="table-fixed mt-4 w-full">
