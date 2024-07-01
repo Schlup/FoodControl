@@ -28,16 +28,16 @@ function Mesas() {
                             <p className='mx-4 font-semibold mt-2'>Tempo: <span className='font-normal'>5 Minutos</span></p>
                         </div>
                     </Link>
-                    <Link to="/pedido">
-                        <div className='bg-grey w-80 h-60 rounded-lg'>
-                            <h2 className='px-4 py-2 bg-waiting text-white flex justify-between text-lg rounded-lg'>Mesa 002<LuClock className='size-6' /></h2>
-                            <p className='mx-4 font-semibold mt-2'>Capacidade: <span className='font-normal'>4 Pessoas</span></p>
-                            <p className='mx-4 font-semibold mt-2'>Local: <span className='font-normal'>Salão</span></p>
-                            <p className='mx-4 font-semibold mt-2'>Status: <span className='font-normal'>Indisponível</span></p>
-                            <p className='mx-4 font-semibold mt-2'>Tempo: <span className='font-normal'>5 Minutos</span></p>
-                            <p className='mx-4 font-semibold mt-2'>Valor: <span className='font-normal'>R$150,00</span></p>
-                        </div>
-                    </Link>
+
+                    <div className='bg-grey w-80 h-60 rounded-lg'>
+                        <h2 className='px-4 py-2 bg-waiting text-white flex justify-between text-lg rounded-lg'>Mesa 002<LuClock className='size-6' /></h2>
+                        <p className='mx-4 font-semibold mt-2'>Capacidade: <span className='font-normal'>4 Pessoas</span></p>
+                        <p className='mx-4 font-semibold mt-2'>Local: <span className='font-normal'>Salão</span></p>
+                        <p className='mx-4 font-semibold mt-2'>Status: <span className='font-normal'>Indisponível</span></p>
+                        <p className='mx-4 font-semibold mt-2'>Tempo: <span className='font-normal'>5 Minutos</span></p>
+                        <p className='mx-4 font-semibold mt-2'>Valor: <span className='font-normal'>R$150,00</span></p>
+                    </div>
+
                     <Link to="/pedido">
                         <div className='bg-grey w-80 h-60 rounded-lg'>
                             <h2 className='px-4 py-2 bg-navred text-white flex justify-between text-lg rounded-lg'>Mesa 003<IoMdLock className='size-6' /></h2>
