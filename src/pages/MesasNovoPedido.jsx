@@ -10,7 +10,7 @@ import LanchesBotao from '../layout/LanchesBotao';
 
 function MesasNovoPedido() {
   return (
-    <main className="grid grid-cols-10 overflow-hidden overscroll-none">
+    <main className="grid grid-cols-10">
       <div>
         <Nav />
       </div>
@@ -51,7 +51,12 @@ function MesasNovoPedido() {
               <LanchesBotao />
             </div>
 
-            <div className='flex flex-wrap gap-x-14 gap-y-10 p-16'>
+            <div className='flex flex-wrap gap-x-14 gap-y-6 p-16'>
+              <div className='bg-navred p-2 text-white'>
+                <img src="" alt="" className='bg-cocacola bg-cover p-28' />
+                <p>Refrigerante Coca-Cola Pet 2L</p>
+                <p>R$ 9,79</p>
+              </div>
               <div className='bg-navred p-2 text-white'>
                 <img src="" alt="" className='bg-white p-28' />
                 <p>Refrigerante Coca-Cola Pet 2L</p>

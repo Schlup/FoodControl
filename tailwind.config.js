@@ -16,6 +16,7 @@ module.exports = {
     },
     backgroundImage: {
       'inicio': "url('/src/images/Inicio.jpg')",
+      'cocacola': "url('/src/images/cocacola2.jpg')",
     },
   },
   plugins: [],
