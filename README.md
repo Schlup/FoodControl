@@ -1,3 +1,3 @@
-Foond Control
+Food Control
 
-Trabalho para matéria de Desenvolvimento Web
+Trabalho para a matéria de Desenvolvimento Web
