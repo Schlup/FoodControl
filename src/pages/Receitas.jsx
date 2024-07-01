@@ -31,9 +31,11 @@ function Receitas() {
               <td className='text-center'>2 Pessoas</td>
               <td className='text-center'>R$ 17,00</td>
               <td className='text-center'>50 min</td>
-              <td><ModoPraparoBotao /></td>
-              <td><EditarPreparoBotao /></td>
-              <td><RemoverPreparoBotao /></td>
+              <td className='flex gap-2 justify-center'>
+                <ModoPraparoBotao />
+                <EditarPreparoBotao />
+                <RemoverPreparoBotao />
+              </td>
             </tr>
           </tbody>
         </table>

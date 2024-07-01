@@ -29,7 +29,64 @@ function ReceitasModoPreparo() {
                             <td className='text-center'>Colher {"(sopa)"}</td>
                         </tr>
                     </tbody>
+                    <tbody>
+                        <tr className="border-2 text-left">
+                            <td className='p-2'>2</td>
+                            <td className='text-center'>Óleo</td>
+                            <td className='text-center'>2</td>
+                            <td className='text-center'>Colher {"(sopa)"}</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr className="border-2 text-left">
+                            <td className='p-2'>3</td>
+                            <td className='text-center'>Óleo</td>
+                            <td className='text-center'>2</td>
+                            <td className='text-center'>Colher {"(sopa)"}</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr className="border-2 text-left">
+                            <td className='p-2'>4</td>
+                            <td className='text-center'>Óleo</td>
+                            <td className='text-center'>2</td>
+                            <td className='text-center'>Colher {"(sopa)"}</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr className="border-2 text-left">
+                            <td className='p-2'>5</td>
+                            <td className='text-center'>Óleo</td>
+                            <td className='text-center'>2</td>
+                            <td className='text-center'>Colher {"(sopa)"}</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr className="border-2 text-left">
+                            <td className='p-2'>6</td>
+                            <td className='text-center'>Óleo</td>
+                            <td className='text-center'>2</td>
+                            <td className='text-center'>Colher {"(sopa)"}</td>
+                        </tr>
+                    </tbody>
+                    <tbody>
+                        <tr className="border-2 text-left">
+                            <td className='p-2'>7</td>
+                            <td className='text-center'>Óleo</td>
+                            <td className='text-center'>2</td>
+                            <td className='text-center'>Colher {"(sopa)"}</td>
+                        </tr>
+                    </tbody>
                 </table>
+                <div className='px-16 rounded-lg border-2 mt-12 p-6'>
+                    <h2 className='text-lg font-semibold mb-4'>Modo de Preparo</h2>
+                    <p>
+                        Aqueça uma panela com o óleo, em fogo médio, e frite o alho até dourar. Adicione o arroz e frite por 3 minutos. Junte o açafrão, o pimentão, a cenoura, a ervilha e refogue rapidamente. Junte a água, sal e cozinhe com a panela semitampada até quase secar.
+                        Tampe a panela, abaixe o fogo e cozinhe até a água secar completamente. Desligue, deixe amornar e misture com a mussarela e o tomate.
+                        Despeje em um refratário, coloque colheradas do Catupiry sobre ele e leve ao forno médio, preaquecido por 10 minutos ou até gratinar.
+                        Retire, decore com azeitona e sirva.
+                    </p>
+                </div>
             </div>
         </main>
     )
