@@ -1,11 +1,11 @@
 import React from 'react';
 
-function ModoPraparoBotao() {
+function VerificarPedidoBotao() {
   return (
     <button className="bg-navred text-white p-1 px-2 rounded-lg hover:bg-hoverred">
-      Modo de Preparo
+      Verificar Pedido
     </button>
   );
 }
 
-export default ModoPraparoBotao;
+export default VerificarPedidoBotao;

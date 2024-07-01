@@ -2,9 +2,9 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { GoHome } from "react-icons/go";
 import { MdOutlineInventory2 } from "react-icons/md";
+import { MdOutlineListAlt } from "react-icons/md";
 import { LuScrollText } from "react-icons/lu";
 import { MdOutlineTableRestaurant } from "react-icons/md";
-import { MdOutlineListAlt } from "react-icons/md";
 
 function Nav() {
     return (

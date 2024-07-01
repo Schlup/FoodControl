@@ -12,6 +12,7 @@ module.exports = {
       waiting: "#EE8D1C",
       danger: "#C7C017",
       blue: "#1C63EE",
+      tgrey: "#828282",
     },
   },
   plugins: [],
