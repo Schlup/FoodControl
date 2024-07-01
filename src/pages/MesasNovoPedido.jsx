@@ -20,8 +20,8 @@ function MesasNovoPedido() {
           <ConcluirBotao />
         </header>
         <div className='grid-cols-12 flex'>
-          <div className='bg-grey w-3/12 flex flex-col h-max mt-4'>
-            <div className='p-4 text-2xl mb-80'>
+          <div className='bg-grey w-3/12 mt-4 flex flex-col'>
+            <div className='p-4 text-2xl flex flex-col h-full'>
               <div className='p-2'>
                 <h2>Refrigerante Coca-Cola Pet 2L</h2>
                 <p className=''>R$9,79 x1 R$9,79</p>
@@ -35,12 +35,13 @@ function MesasNovoPedido() {
                 <p className=''>R$9,79 x1 R$9,79</p>
               </div>
               <div className='flex-grow'></div>
-            </div>
-            <div className='bg-confirmed p-4 text-white text-2xl mt-80'>
-              <p>Total</p>
-              <p>R$ 28,33</p>
+              <div className='bg-confirmed p-4 text-white text-2xl mt-auto'>
+                <p>Total</p>
+                <p>R$ 28,33</p>
+              </div>
             </div>
           </div>
+
           <div className='w-9/12'>
             <div className='flex gap-6 mt-4 justify-evenly h-min'>
               <BebidasBotao />
